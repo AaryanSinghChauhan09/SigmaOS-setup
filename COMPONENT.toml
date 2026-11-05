@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-setup"
+tier = 4
+description = "Interactive system onboarding setup wizard inspired by Omamac"
+contracts = ['system-setup-wizard', 'dotfiles-bootstrapper', 'hardware-probe-assistant']
+upstream_inspirations = ['https://github.com/omacom/omamac']
