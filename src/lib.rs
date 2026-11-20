@@ -1,3 +1,5 @@
+pub mod sigmasetupmanager;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub enum SetupStep { #[default] Welcome, Network, UserAccount, Themes, Completed }
 
